@@ -1,0 +1,27 @@
+{
+  "name": "jeopardy_trainer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrod8/Jeopardy_Trainer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lrod8/Jeopardy_Trainer/issues"
+  },
+  "homepage": "https://github.com/lrod8/Jeopardy_Trainer#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "nodemon": "^2.0.22"
+  }
+}

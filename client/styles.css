@@ -1,0 +1,62 @@
+body {
+    /*background-color: #3a0ca3;*/
+    background-color: #3f37c9;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 45px;
+    letter-spacing: 1px;
+    color: white;
+    filter: drop-shadow(0 0 0.3rem #f72585);
+    padding-bottom: 5px;
+}
+
+nav #navbar {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Anton';
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: white;
+    filter: drop-shadow(0 0 0.3rem #f72585);
+    list-style-type: none;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #fcd5ce;
+}
+
+li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.Dumbbells {
+    display: block;
+    margin: auto;
+    object-fit: contain;
+    width: 100px;
+}
+
+#JeopardyLogo {
+    display: block;
+    margin: auto;
+    object-fit: contain; 
+    width: 75%;
+}
