@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const { getTrivia } = require('../controllers/triviaController');
+const { getTrivia, setTrivia, updateTrivia, deleteTrivia} = require('../controllers/triviaController');
 
-router.get('/:category', getTrivia, (req, res) => {
-    //send the trivia question and answer to the client
-    res.status(200).send({message : `Triva time!! ${req.params.category}`});
-})
+router.get('/:type', getTrivia);
+router.post('/', setTrivia);
+router.put('/:id', updateTrivia);
+router.delete('/:id', deleteTrivia);
 
 //post route for quiz
 
