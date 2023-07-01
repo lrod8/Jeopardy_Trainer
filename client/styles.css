@@ -13,6 +13,13 @@ h1 {
     padding-bottom: 5px;
 }
 
+h2 {
+    font-size: 35px;
+    color: white;
+    filter: drop-shadow(0 0 0.1rem #f72585);
+    text-align: center;
+}
+
 nav #navbar {
     display: flex;
     justify-content: space-evenly;
@@ -99,7 +106,14 @@ h3 {
     color: #fae1dd;
 }
 
-#question-button, #answer-button {
+p {
+    font-size: 25px;
+    color: white; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+#question-button, #answer-button, #start-button, #stop-button {
   background-color: #e1ecf4;
   border-radius: 3px;
   border: 1px solid #7aa7c7;
@@ -128,17 +142,49 @@ h3 {
 }
 
 #question-button:hover,
-#question-button:focus {
+#answer-button:hover,
+#start-button:hover,
+#stop-button:hover,
+#question-button:focus,
+#answer-button:focus,  
+#start-button:focus, 
+#stop-button:focus
+{
   background-color: #b3d3ea;
   color: #2c5777;
 }
 
-#question-button:focus {
+#question-button:focus,
+#answer-button:focus,  
+#start-button:focus, 
+#stop-button:focus
+{
   box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
 }
 
-#question-button:active {
+#question-button:active,
+#answer-button:active,  
+#start-button:active, 
+#stop-button:active
+{
   background-color: #a0c7e4;
   box-shadow: none;
   color: #2c5777;
+}
+
+#light {
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#buzzer-img: hover {
+    cursor: pointer;
+    /* transform: scale(1.1); */
+}
+
+.button-div {
+    text-align: center;
 }
