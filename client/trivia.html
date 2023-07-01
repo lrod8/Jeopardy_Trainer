@@ -20,9 +20,10 @@
             <li><a href="anecdote.html">Anecdote Trainer</a></li>
         </ul>       
     </nav>
-    <h3>Trivia Categories</h2>
+    <h3>Trivia Categories</h3>
     <div id="categories">
         <ul>
+            <!--
             <li><a href="">Before and After</a></li>
             <li><a href="">Capitals</a></li>
             <li><a href="">Countries</a></li>
@@ -38,17 +39,23 @@
             <li><a href="">Rhyme Time</a></li>
             <li><a href="">Science</a></li>
             <li><a href="">Songs</a></li>
-            <li><a href="">Sports</a></li>
             <li><a href="">Theater</a></li>
             <li><a href="">TV</a></li>
             <li><a href="">Vocabulary</a></li>
             <li><a href="">World History</a></li>
+        -->
+            <li><a id="sports-link" href="#">Sports</a></li>
         </ul>
     </div>
     <div>
-        <h2>Question</h2>
-        <button id="answer">Show Answer</button>
-        <button id="question">Next Question</button>
+        <div class="container">
+            <h2 id="category"></h2>
+            <div id="answer-box"></div>
+            <div id="question-box"></div>
+            <button id="question-button">Show Question</button>
+            <button id="answer-button">Next Answer</button>
+        </div>   
     </div>
 </body>
+<script src="trivia.js"></script>
 </html>
